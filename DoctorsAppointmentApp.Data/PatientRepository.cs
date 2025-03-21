@@ -37,6 +37,12 @@ namespace DoctorsAppointmentApp.Data
             }
         }
 
+        /// <summary>
+        /// For add new patient
+        /// </summary>
+        /// <param name="patientDetails"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public bool AddNewPatient(PatientDetails patientDetails)
         {
             try
